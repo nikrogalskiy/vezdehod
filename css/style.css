@@ -654,10 +654,6 @@ body.ie ._ibg img {
   transition: background 0.5s ease 0s;
 }
 
-.menu__wrapper._active {
-  background: #f57500;
-}
-
 .menu__body {
   display: none;
   position: fixed;
@@ -688,7 +684,6 @@ body.ie ._ibg img {
   position: relative;
   width: 20px;
   height: 14px;
-  cursor: pointer;
   z-index: 5;
 }
 
@@ -1406,6 +1401,10 @@ body.ie ._ibg img {
   .menu__wrapper {
     height: 58px;
     width: 58px;
+  }
+
+  .menu__wrapper._active {
+    background: #f57500;
   }
 
   .menu__body {
